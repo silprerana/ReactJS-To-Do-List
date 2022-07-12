@@ -1,3 +1,12 @@
+/*
+Color combos:
+bg-color: #b4a596
+to-do-list-box color: #f5ebe0
+to-do-list text color: #e5989b
+title color: #edede9
+*/
+
+
 .App {
   text-align: center;
 }
@@ -14,14 +23,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #b4a596;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
 .App-link {
@@ -35,4 +44,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#to-do-list {
+  background-color: white;
+  color: #e5989b;
+}
+
+#title {
+  color: #edede9;
 }
